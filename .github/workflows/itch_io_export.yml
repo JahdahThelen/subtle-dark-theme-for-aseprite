@@ -1,0 +1,16 @@
+name: Create Itch.io export
+on: workflow_dispatch
+env: 
+  FILENAME: Subtle Dark Theme V${{vars.VERSION}}
+
+jobs:
+  export:
+  export_to_zip:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/upload-artifact@v3
+        with:
+          name: ${{env.FILENAME}}
+          path: src
+          
