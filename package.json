@@ -1,11 +1,11 @@
 {
   "name": "subtle-dark-theme",
   "displayName": "Subtle Dark Theme",
-  "description": "A dark theme for Aseprite by Llamma, based on the Default theme by (c) David Capello and Ilija Melentijevic",
-  "version": "1.2",
-  "author": { "name": "Bow Grape", "email": "", "url": "https://bowgrape.itch.io/" },
+  "description": "A dark theme for Aseprite, based on the Default theme by (c) David Capello and Ilija Melentijevic",
+  "version": "1.3",
+  "author": { "name": "Jahdah", "email": "", "url": "https://jahdah.itch.io/" },
   "publisher": "aseprite",
-  "license": "CC-BY-4.0",
+  "license": "GPL-3.0 license",
   "categories": [
     "Themes"
   ],
