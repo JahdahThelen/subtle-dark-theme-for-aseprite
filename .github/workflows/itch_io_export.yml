@@ -4,7 +4,6 @@ env:
   FILENAME: Subtle Dark Theme V${{vars.VERSION}}
 
 jobs:
-  export:
   export_to_zip:
     runs-on: ubuntu-latest
     steps:
@@ -13,4 +12,3 @@ jobs:
         with:
           name: ${{env.FILENAME}}
           path: src
-          
